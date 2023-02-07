@@ -44,8 +44,8 @@ void sort_array(int array[], int size) {
 }
 
 int main(){
-    const int SIZE = 6;
-    int scores[SIZE] = {100, 60, 70, 100, 90, 80};
+    const int SIZE = 1;                        
+    int scores[SIZE] = {100};
 
     //処理コード
     print_array(scores, SIZE);
